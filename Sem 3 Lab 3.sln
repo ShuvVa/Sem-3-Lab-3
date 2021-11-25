@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sem 3 Lab 3", "Sem 3 Lab 3\Sem 3 Lab 3.vcxproj", "{D3DFF110-9374-459E-836E-B2FFC93C138B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sem 3 Lab 3 C_Sharp", "Sem 3 Lab 3 C_Sharp\Sem 3 Lab 3 C_Sharp.csproj", "{732E90EA-278E-4684-87F0-EA62E9EEEDC4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,18 +27,6 @@ Global
 		{D3DFF110-9374-459E-836E-B2FFC93C138B}.Release|x64.Build.0 = Release|x64
 		{D3DFF110-9374-459E-836E-B2FFC93C138B}.Release|x86.ActiveCfg = Release|Win32
 		{D3DFF110-9374-459E-836E-B2FFC93C138B}.Release|x86.Build.0 = Release|Win32
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|x64.Build.0 = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Debug|x86.Build.0 = Debug|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|x64.ActiveCfg = Release|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|x64.Build.0 = Release|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|x86.ActiveCfg = Release|Any CPU
-		{732E90EA-278E-4684-87F0-EA62E9EEEDC4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
