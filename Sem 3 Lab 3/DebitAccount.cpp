@@ -48,7 +48,7 @@ int DebitAccount::GetCurrency() {
     return Currency;
 }
 
-int DebitAccount::GetBalance() {
+double DebitAccount::GetBalance() {
     return Balance;
 }
 
@@ -59,7 +59,7 @@ void DebitAccount::Replenishment(int add, int curr) {
 
 void DebitAccount::Debting(int dec, int curr) {
     Curr_strct a;
-    int k = Balance;
+    double k = Balance;
     Balance -= dec * a.CURRENCY_EXCHANGE_RATE[Currency] / a.CURRENCY_EXCHANGE_RATE[curr];
     if (Balance < 0) {
         cout << "Ошибка! На балансе недостаточно средств!\n";
@@ -96,7 +96,7 @@ int GetCurrencyFr(DebitAccount& dbt_acc) {
     return dbt_acc.Currency;
 }
 
-int GetBalanceFr(DebitAccount& dbt_acc) {
+double GetBalanceFr(DebitAccount& dbt_acc) {
     return dbt_acc.Balance;
 }
 

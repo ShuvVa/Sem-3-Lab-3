@@ -79,7 +79,6 @@ int main(){
     setlocale(LC_ALL, "Rus");
     DebitAccount User_Alice(1, 1500);
     int choice = 0;
-    //DEBIT_ACCOUNT_DATABASE Data = {User_Alice};
     cout << "Выберите каким образом производить операции над дебетовым счетом:\n1. Через методы класса.\n2. Через дружественные функции.\n: ";
     cin >> choice;
     switch (choice) {
@@ -97,14 +96,6 @@ int main(){
     }
     }
     
-    //DebitAccount User_Bob;
-    
-
-    //Bank Sambir("Sambir");
-
-    /*cout.fill('0');
-    cout.width(16);
-    cout  << 15 << endl;*/
     return 0;
 }
 

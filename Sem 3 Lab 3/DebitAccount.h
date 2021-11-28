@@ -27,7 +27,7 @@ public:
 
     int GetDebitAccountID();
     int GetCurrency();
-    int GetBalance();
+    double GetBalance();
 
     void Replenishment(int add, int curr = 0);
     void Debting(int dec, int curr = 0);
@@ -35,7 +35,7 @@ public:
 
     friend int GetDebitAccountIDFr(DebitAccount& dbt_acc);
     friend int GetCurrencyFr(DebitAccount& dbt_acc);
-    friend int GetBalanceFr(DebitAccount& dbt_acc);
+    friend double GetBalanceFr(DebitAccount& dbt_acc);
 
     friend void ReplenishFr(DebitAccount& dbt_acc, int add, int curr);
     friend void DebtingFr(DebitAccount& dbt_acc, int dec, int curr);
@@ -44,7 +44,7 @@ public:
 
 int GetDebitAccountIDFr(DebitAccount& dbt_acc);
 int GetCurrencyFr(DebitAccount& dbt_acc);
-int GetBalanceFr(DebitAccount& dbt_acc);
+double GetBalanceFr(DebitAccount& dbt_acc);
 
 void ReplenishFr(DebitAccount& dbt_acc, int add, int curr);
 

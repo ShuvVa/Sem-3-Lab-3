@@ -149,6 +149,9 @@
     <ClInclude Include="Client.h" />
     <ClInclude Include="DebitAccount.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
